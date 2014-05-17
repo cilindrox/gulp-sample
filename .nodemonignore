@@ -1,0 +1,6 @@
+/.build/*         # Build folder
+/public/*         # ignore all public resources, let 'gulp-watch' handle'em
+/.*               # any hidden (dot) files
+*.md              # Markdown files
+*.css             # CSS files
+/node_modules/*   # npm deps folder
